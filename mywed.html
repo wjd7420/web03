@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome</title>
+	<style>
+		* { margin: 0;
+		   font-family: "맑은 고딕", "Malgun Gothic", sans-serif;
+		    }
+		body{
+			width: 950px;
+			background-color: #E5E5E5;
+			margin: 0px auto;
+			color : white;
+		}
+		a { text-decoration: none; }
+		li { list-style: none; }
+		.navi a { color : pink; }
+		#page{
+			background-color: #252525;
+			margin : 40px 0px;
+			padding : 20px;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<h1> 포트폴리오 </h1>
+	</header>
+	
+	<nav>
+		<div class="navi">
+			<ul>
+				<li><a href="sub_01.html">자기소개</a></li>
+				<h5>1998.06.09 정혜진</h5>
+				<li><a href="sub_02.html">학력</a></li>
+				<h5>동의대학교 경영정보학과</h5>
+				<li><a href="sub_03.html">대외활동</a></li>
+				<h5>도시재생뉴딜사업 → "빈집에 희망을 담다"  </h5>
+			</ul>
+		</div>
+	</nav>
+	<section>
+		<article>
+			<h3>활동사진</h3>
+			<img src="../images/photo6.jpg" alt="">
+		</article>
+	</section>
+	<aside class="rigth">
+		<h3> 사이트 관리</h3>
+		<form action="#" method="post">
+			방문목적 : <input type="text" name="id"> <br>
+			대외활동 정보 : <input type="password" name="pw"> <br>
+			방문목적 : <input type="radio" value="1" name="grade">정보탐색</input>
+			<input type="radio" value="2" name="grade">대외활동 홍보</input>
+			<input type="radio" value="3" name="grade">관심사</input>
+			<input type="radio" value="4" name="grade">해당지역 주민</input>	<br>
+			<input type="submit" value="홈페이지 처음으로">
+			<input type="reset" value="맨위로"><br>
+		</form>
+	</aside>
+	<footer>
+		@JungHyeJin0609
+	</footer>
+</div>
+</body>
+</html>
